@@ -9714,6 +9714,11 @@ button.bg-dark:focus {
 .text-uppercase {
   text-transform: uppercase !important;
 }
+.text-uppercase em {
+  color: #c29e29 !important;
+  font-style: normal !important;
+  text-transform: uppercase !important;
+}
 
 .text-capitalize {
   text-transform: capitalize !important;
@@ -9747,6 +9752,11 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-white em {
+  color: #c29e29 !important;
+  font-style: normal !important;
+}
+
 .text-primary {
   color: #1abc9c !important;
 }
@@ -9757,6 +9767,10 @@ a.text-primary:hover, a.text-primary:focus {
 
 .text-secondary {
   color: #FFFFFF !important;
+}
+.text-secondary em {
+  color: #c29e29 !important;
+  font-style: normal !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10211,6 +10225,9 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #000000;
+}
+.right{
+  float:right;
 }
 
 input:-webkit-autofill
